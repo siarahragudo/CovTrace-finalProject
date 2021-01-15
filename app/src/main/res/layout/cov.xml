@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="650dp"
+        android:text="CovTrace"
+        android:layout_marginLeft="20dp"
+        android:textColor="#00CC00"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:id="@+id/elogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#000000"
+        android:layout_below="@+id/elogo"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000000"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:text="Forgot Password?"
+        android:textColor="#0000CC"/>
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Log in"
+        android:background="#61AD74"
+        android:layout_below="@id/text3"
+        android:gravity="center"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="180dp"/>
+    
+    <ImageView
+        android:id="@+id/eFb"
+        android:background="@drawable/fblogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnsave"
+        android:layout_marginLeft="120dp"/>
+
+    <ImageView
+        android:id="@+id/ebrowse"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/btnsave"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/browse" />
+
+
+</RelativeLayout>
